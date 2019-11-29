@@ -1,0 +1,8 @@
+excluded: # 执行 linting 时忽略的路径。 优先级比 `included` 更高。
+- Carthage
+- Pods
+line_length: 200
+# 或者也可以同时进行显式设置
+file_length:
+  warning: 500
+  error: 1200

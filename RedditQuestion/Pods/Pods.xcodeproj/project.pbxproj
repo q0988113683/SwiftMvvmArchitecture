@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EC7DC4A957614A63E2807CB734452864 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DF0F5FCCBE6FE7A4C1306509EB469BF /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04B0A8191F3694A44BC2DF2019CA1FCE /* Pods-RedditQuestionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06D585C1FC832E81FFE02B5697E6298 /* Pods-RedditQuestionTests-dummy.m */; };
+		1EB06E427C0AEA9A6410E87BB14CB8D8 /* Pods-RedditQuestionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C047B8BE304D7D40E669A9CA9108111 /* Pods-RedditQuestionUITests-dummy.m */; };
+		622D753668E47732E6508A2A76FF54D4 /* Pods-RedditQuestion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825150282F951BBB3C9F318FE7AB8266 /* Pods-RedditQuestion-dummy.m */; };
+		6A904B5B8DBB41DE352C9C72E8DDE18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6C230FDAFEB18C5AF683AB52E1703ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9BD3DF33C4819066053FBEF59F18F26F /* Pods-RedditQuestionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE0D6BD38DDF192C7C96B687D133809 /* Pods-RedditQuestionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A595B53740D0E877C8860C7B067F32D0 /* Pods-RedditQuestion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10ECCCF6A9697688C6E803978CF40E7D /* Pods-RedditQuestion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB976A7ADB4DEC626F543BE089B8A9EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CDB403D53DD0E5B3C4D4C6DBF9004872 /* Pods-RedditQuestionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0005A8812D6BB1746F4C9CF5367C7BD6 /* Pods-RedditQuestionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C75948E41911819DBD40C53F6586E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67309D94BBD864CE7A46759E1768058A;
+			remoteInfo = "Pods-RedditQuestion";
+		};
+		BBE18209651D02962B300DD71765EED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7DC4A957614A63E2807CB734452864;
+			remoteInfo = SwiftLint;
+		};
+		CFF525ED03687DAC73433F70BA93006C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67309D94BBD864CE7A46759E1768058A;
+			remoteInfo = "Pods-RedditQuestion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0005A8812D6BB1746F4C9CF5367C7BD6 /* Pods-RedditQuestionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedditQuestionTests-umbrella.h"; sourceTree = "<group>"; };
+		103D1A3548385961D7E33BC04B8AA6AF /* Pods_RedditQuestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedditQuestion.framework; path = "Pods-RedditQuestion.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ECCCF6A9697688C6E803978CF40E7D /* Pods-RedditQuestion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedditQuestion-umbrella.h"; sourceTree = "<group>"; };
+		1654F2A3779B4C03DCAF21CE52E4FD10 /* Pods-RedditQuestionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FE0D6BD38DDF192C7C96B687D133809 /* Pods-RedditQuestionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedditQuestionUITests-umbrella.h"; sourceTree = "<group>"; };
+		2711B49E2D1BF70F217B50FB5D057211 /* Pods-RedditQuestionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedditQuestionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B3840DDA9339683C63279C7CA6598AE /* Pods-RedditQuestionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestionUITests-Info.plist"; sourceTree = "<group>"; };
+		308F4136A3A9974A80CAE15A38578F7F /* Pods-RedditQuestionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RedditQuestionTests.modulemap"; sourceTree = "<group>"; };
+		38891DC3E21132B28931A929BEF01E1A /* Pods-RedditQuestionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42CC2E0E6E42A864F3BCB3F0606E6A3B /* Pods-RedditQuestion-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedditQuestion-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A0C6F46EB6A6429949E43C8F368DEB4 /* Pods-RedditQuestionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		825150282F951BBB3C9F318FE7AB8266 /* Pods-RedditQuestion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedditQuestion-dummy.m"; sourceTree = "<group>"; };
+		83801859703335CF767BBA956BC51D03 /* Pods_RedditQuestionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedditQuestionUITests.framework; path = "Pods-RedditQuestionUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		8BFFC6C9C3DFAECB8F790A58054FCB91 /* Pods-RedditQuestion-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestion-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CA8DA7695644E8F3CE338DA2C1DA04B /* Pods-RedditQuestionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestionTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C047B8BE304D7D40E669A9CA9108111 /* Pods-RedditQuestionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedditQuestionUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAA6758FD75C55ADBA880F58345F7668 /* Pods-RedditQuestionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC91BAF9C50E1E8EA8B64FAF539863E6 /* Pods-RedditQuestionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedditQuestionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD8B2AB9AA4B55B1D6681C9A89D26D2E /* Pods-RedditQuestionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD12E8A3B55A75F966B2C71EE7BE2467 /* Pods-RedditQuestionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestionTests-Info.plist"; sourceTree = "<group>"; };
+		D5F38FC9C835C9FEDC574818C6455438 /* Pods-RedditQuestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestion.release.xcconfig"; sourceTree = "<group>"; };
+		DC074EC6CEA67FA9EE3C87B6B3BE0682 /* Pods-RedditQuestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditQuestion.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7080025F549BDF1CE3864149423400 /* Pods-RedditQuestion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RedditQuestion.modulemap"; sourceTree = "<group>"; };
+		DF20DB7A26B4B7053EC2322AD6E99368 /* Pods-RedditQuestionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RedditQuestionUITests.modulemap"; sourceTree = "<group>"; };
+		E06D585C1FC832E81FFE02B5697E6298 /* Pods-RedditQuestionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedditQuestionTests-dummy.m"; sourceTree = "<group>"; };
+		EDABD4E3275B3FAB768AACDDC96EE697 /* Pods_RedditQuestionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedditQuestionTests.framework; path = "Pods-RedditQuestionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5798107B65C0EEC8A23BA916731BDFD /* Pods-RedditQuestion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditQuestion-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A8DF6D18185E584601166EAB41EFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A904B5B8DBB41DE352C9C72E8DDE18F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8370A7A1582B0EF7E2AE9990D7378A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C230FDAFEB18C5AF683AB52E1703ABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F0E788A0990AFD3453200E0AF1ED87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB976A7ADB4DEC626F543BE089B8A9EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43310CCBD6407840909A7ADB2770FB4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D029302F8CA541D5449B2F6D8DEDBB5 /* Pods-RedditQuestion */,
+				433889845A3F7E171E0C3E8A78E43B6A /* Pods-RedditQuestionTests */,
+				82C4DCD16347A6069422542383984121 /* Pods-RedditQuestionUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433889845A3F7E171E0C3E8A78E43B6A /* Pods-RedditQuestionTests */ = {
+			isa = PBXGroup;
+			children = (
+				308F4136A3A9974A80CAE15A38578F7F /* Pods-RedditQuestionTests.modulemap */,
+				AC91BAF9C50E1E8EA8B64FAF539863E6 /* Pods-RedditQuestionTests-acknowledgements.markdown */,
+				38891DC3E21132B28931A929BEF01E1A /* Pods-RedditQuestionTests-acknowledgements.plist */,
+				E06D585C1FC832E81FFE02B5697E6298 /* Pods-RedditQuestionTests-dummy.m */,
+				CD12E8A3B55A75F966B2C71EE7BE2467 /* Pods-RedditQuestionTests-Info.plist */,
+				0005A8812D6BB1746F4C9CF5367C7BD6 /* Pods-RedditQuestionTests-umbrella.h */,
+				AD8B2AB9AA4B55B1D6681C9A89D26D2E /* Pods-RedditQuestionTests.debug.xcconfig */,
+				8CA8DA7695644E8F3CE338DA2C1DA04B /* Pods-RedditQuestionTests.release.xcconfig */,
+			);
+			name = "Pods-RedditQuestionTests";
+			path = "Target Support Files/Pods-RedditQuestionTests";
+			sourceTree = "<group>";
+		};
+		82C4DCD16347A6069422542383984121 /* Pods-RedditQuestionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF20DB7A26B4B7053EC2322AD6E99368 /* Pods-RedditQuestionUITests.modulemap */,
+				2711B49E2D1BF70F217B50FB5D057211 /* Pods-RedditQuestionUITests-acknowledgements.markdown */,
+				AAA6758FD75C55ADBA880F58345F7668 /* Pods-RedditQuestionUITests-acknowledgements.plist */,
+				9C047B8BE304D7D40E669A9CA9108111 /* Pods-RedditQuestionUITests-dummy.m */,
+				2B3840DDA9339683C63279C7CA6598AE /* Pods-RedditQuestionUITests-Info.plist */,
+				1FE0D6BD38DDF192C7C96B687D133809 /* Pods-RedditQuestionUITests-umbrella.h */,
+				5A0C6F46EB6A6429949E43C8F368DEB4 /* Pods-RedditQuestionUITests.debug.xcconfig */,
+				1654F2A3779B4C03DCAF21CE52E4FD10 /* Pods-RedditQuestionUITests.release.xcconfig */,
+			);
+			name = "Pods-RedditQuestionUITests";
+			path = "Target Support Files/Pods-RedditQuestionUITests";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D029302F8CA541D5449B2F6D8DEDBB5 /* Pods-RedditQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				DC7080025F549BDF1CE3864149423400 /* Pods-RedditQuestion.modulemap */,
+				42CC2E0E6E42A864F3BCB3F0606E6A3B /* Pods-RedditQuestion-acknowledgements.markdown */,
+				8BFFC6C9C3DFAECB8F790A58054FCB91 /* Pods-RedditQuestion-acknowledgements.plist */,
+				825150282F951BBB3C9F318FE7AB8266 /* Pods-RedditQuestion-dummy.m */,
+				F5798107B65C0EEC8A23BA916731BDFD /* Pods-RedditQuestion-Info.plist */,
+				10ECCCF6A9697688C6E803978CF40E7D /* Pods-RedditQuestion-umbrella.h */,
+				DC074EC6CEA67FA9EE3C87B6B3BE0682 /* Pods-RedditQuestion.debug.xcconfig */,
+				D5F38FC9C835C9FEDC574818C6455438 /* Pods-RedditQuestion.release.xcconfig */,
+			);
+			name = "Pods-RedditQuestion";
+			path = "Target Support Files/Pods-RedditQuestion";
+			sourceTree = "<group>";
+		};
+		C0913CC48E49E410FAEF3634A5C0BCE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103D1A3548385961D7E33BC04B8AA6AF /* Pods_RedditQuestion.framework */,
+				EDABD4E3275B3FAB768AACDDC96EE697 /* Pods_RedditQuestionTests.framework */,
+				83801859703335CF767BBA956BC51D03 /* Pods_RedditQuestionUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				C0913CC48E49E410FAEF3634A5C0BCE6 /* Products */,
+				43310CCBD6407840909A7ADB2770FB4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E7B6DA0368E4A22680452A82EE45A8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A595B53740D0E877C8860C7B067F32D0 /* Pods-RedditQuestion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A75AC91BB3CB7FA2CA881F44632AA09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3DF33C4819066053FBEF59F18F26F /* Pods-RedditQuestionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECA0D15542227A38E2D59CCFCA6C8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB403D53DD0E5B3C4D4C6DBF9004872 /* Pods-RedditQuestionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22435532E6C6BCDF214E0029F5D052DC /* Pods-RedditQuestionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0BE0073CAEC15AE934D644F9078102 /* Build configuration list for PBXNativeTarget "Pods-RedditQuestionUITests" */;
+			buildPhases = (
+				7A75AC91BB3CB7FA2CA881F44632AA09 /* Headers */,
+				FF5AC34A43571B09AE38482B9AB47289 /* Sources */,
+				22A8DF6D18185E584601166EAB41EFAB /* Frameworks */,
+				D437421BBA553BE67D5AF24821FE79C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0356F212895C3DB68BCA4CFCAF0661 /* PBXTargetDependency */,
+			);
+			name = "Pods-RedditQuestionUITests";
+			productName = "Pods-RedditQuestionUITests";
+			productReference = 83801859703335CF767BBA956BC51D03 /* Pods_RedditQuestionUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67309D94BBD864CE7A46759E1768058A /* Pods-RedditQuestion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24DD8171DB9CCADF6ACCE291F9D396E /* Build configuration list for PBXNativeTarget "Pods-RedditQuestion" */;
+			buildPhases = (
+				1E7B6DA0368E4A22680452A82EE45A8B /* Headers */,
+				65AE30833C79C5325A105D3519399D84 /* Sources */,
+				8370A7A1582B0EF7E2AE9990D7378A92 /* Frameworks */,
+				E7549825730D3C5C86F76516D71E2BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37E87F609A0F5E3DA21555442A381BC /* PBXTargetDependency */,
+			);
+			name = "Pods-RedditQuestion";
+			productName = "Pods-RedditQuestion";
+			productReference = 103D1A3548385961D7E33BC04B8AA6AF /* Pods_RedditQuestion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70BC43907A613F235829F2B07B999C39 /* Pods-RedditQuestionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BA6F83CD824F6D6EB5D6DB6C45966E /* Build configuration list for PBXNativeTarget "Pods-RedditQuestionTests" */;
+			buildPhases = (
+				9FECA0D15542227A38E2D59CCFCA6C8E /* Headers */,
+				C7612B48E1970C8BA1E093D188AAD7A5 /* Sources */,
+				96F0E788A0990AFD3453200E0AF1ED87 /* Frameworks */,
+				4D771BB9E23B4AC83C89D53522D4B98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6D45FE5A3A3ECE542CBFE6B6140CB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-RedditQuestionTests";
+			productName = "Pods-RedditQuestionTests";
+			productReference = EDABD4E3275B3FAB768AACDDC96EE697 /* Pods_RedditQuestionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0913CC48E49E410FAEF3634A5C0BCE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67309D94BBD864CE7A46759E1768058A /* Pods-RedditQuestion */,
+				70BC43907A613F235829F2B07B999C39 /* Pods-RedditQuestionTests */,
+				22435532E6C6BCDF214E0029F5D052DC /* Pods-RedditQuestionUITests */,
+				EC7DC4A957614A63E2807CB734452864 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D771BB9E23B4AC83C89D53522D4B98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D437421BBA553BE67D5AF24821FE79C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7549825730D3C5C86F76516D71E2BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AE30833C79C5325A105D3519399D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622D753668E47732E6508A2A76FF54D4 /* Pods-RedditQuestion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7612B48E1970C8BA1E093D188AAD7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B0A8191F3694A44BC2DF2019CA1FCE /* Pods-RedditQuestionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5AC34A43571B09AE38482B9AB47289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB06E427C0AEA9A6410E87BB14CB8D8 /* Pods-RedditQuestionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37E87F609A0F5E3DA21555442A381BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = EC7DC4A957614A63E2807CB734452864 /* SwiftLint */;
+			targetProxy = BBE18209651D02962B300DD71765EED2 /* PBXContainerItemProxy */;
+		};
+		EB6D45FE5A3A3ECE542CBFE6B6140CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RedditQuestion";
+			target = 67309D94BBD864CE7A46759E1768058A /* Pods-RedditQuestion */;
+			targetProxy = 7C75948E41911819DBD40C53F6586E5B /* PBXContainerItemProxy */;
+		};
+		EF0356F212895C3DB68BCA4CFCAF0661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RedditQuestion";
+			target = 67309D94BBD864CE7A46759E1768058A /* Pods-RedditQuestion */;
+			targetProxy = CFF525ED03687DAC73433F70BA93006C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38F2D9392658D6CFB7FF79713B8D1D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1654F2A3779B4C03DCAF21CE52E4FD10 /* Pods-RedditQuestionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestionUITests/Pods-RedditQuestionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestionUITests/Pods-RedditQuestionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A7E47A46F8A09F086CAA577F663E1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8B2AB9AA4B55B1D6681C9A89D26D2E /* Pods-RedditQuestionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestionTests/Pods-RedditQuestionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestionTests/Pods-RedditQuestionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42C4A80629977926CD0BF9249679F25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A8DA1A08B62C620707D4972173BEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC074EC6CEA67FA9EE3C87B6B3BE0682 /* Pods-RedditQuestion.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestion/Pods-RedditQuestion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestion/Pods-RedditQuestion.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ED1659298787172241ED5746EC335D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5605FD1439924F3D24E383CCC7BFB56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F38FC9C835C9FEDC574818C6455438 /* Pods-RedditQuestion.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestion/Pods-RedditQuestion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestion/Pods-RedditQuestion.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73604C44D5C85E6DBB8A4CF7A39B8BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA8DA7695644E8F3CE338DA2C1DA04B /* Pods-RedditQuestionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestionTests/Pods-RedditQuestionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestionTests/Pods-RedditQuestionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F73645203F157716217E35D89B9AE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D248383BCED533873EE1033BC909F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D45F48A648ACD65E7A00BC2A93C377E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C6F46EB6A6429949E43C8F368DEB4 /* Pods-RedditQuestionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditQuestionUITests/Pods-RedditQuestionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditQuestionUITests/Pods-RedditQuestionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF0F5FCCBE6FE7A4C1306509EB469BF /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F73645203F157716217E35D89B9AE5E /* Debug */,
+				42C4A80629977926CD0BF9249679F25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BA6F83CD824F6D6EB5D6DB6C45966E /* Build configuration list for PBXNativeTarget "Pods-RedditQuestionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7E47A46F8A09F086CAA577F663E1E0 /* Debug */,
+				73604C44D5C85E6DBB8A4CF7A39B8BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED1659298787172241ED5746EC335D9 /* Debug */,
+				D248383BCED533873EE1033BC909F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24DD8171DB9CCADF6ACCE291F9D396E /* Build configuration list for PBXNativeTarget "Pods-RedditQuestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A8DA1A08B62C620707D4972173BEB4 /* Debug */,
+				5605FD1439924F3D24E383CCC7BFB56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0BE0073CAEC15AE934D644F9078102 /* Build configuration list for PBXNativeTarget "Pods-RedditQuestionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45F48A648ACD65E7A00BC2A93C377E8 /* Debug */,
+				38F2D9392658D6CFB7FF79713B8D1D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
